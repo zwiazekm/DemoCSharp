@@ -22,7 +22,7 @@ namespace ObslugaZadanWPF
     public partial class MainWindow : Window
     {
         ZarzadcaZadan zz = new ZarzadcaZadan();
-
+        PersonContext db = new PersonContext();
         public MainWindow()
         {
             InitializeComponent();
@@ -51,6 +51,33 @@ namespace ObslugaZadanWPF
         {
             listBox.ItemsSource = zz.ZadaniaNieZakonczone();
             
+        }
+
+        private void TestDB_Click(object sender, RoutedEventArgs e)
+        {
+            db.Persons.Add(new Person() {
+                FirstName = "Testus",
+                LastName = "Testowicz",
+                Age = 14 });
+            db.Persons.Add(new Person()
+            {
+                FirstName = "Janko",
+                LastName = "Walski",
+                Age = 35
+            });
+            db.SaveChanges();
+
+            var wynik = from p in db.Persons
+                        where p.Age > 20
+                        select p;
+
+            string infoWynik = "";
+            foreach (var item in wynik)
+            {
+                infoWynik += item.FirstName + " " + item.LastName + System.Environment.NewLine;
+            }
+            MessageBox.Show(infoWynik);
+
         }
     }
 }

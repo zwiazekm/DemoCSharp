@@ -15,6 +15,7 @@
         <ListBox x:Name="listBox" Height="100" Canvas.Left="188" Canvas.Top="63" Width="228">
 
         </ListBox>
+        <Button x:Name="TestDB" Content="Test DB" Canvas.Left="494" Canvas.Top="131" Width="151" Height="32" Click="TestDB_Click"/>
 
     </Canvas>
 </Window>
