@@ -7,7 +7,7 @@
     <ProjectGuid>{E2391AF9-2EBF-4625-A632-FBFF05DD4C42}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Zadania</RootNamespace>
+    <RootNamespace>Szkolenie.Zadania</RootNamespace>
     <AssemblyName>Zadania</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DoZrobienia.cs" />
+    <Compile Include="IZadanie.cs" />
+    <Compile Include="Oplata.cs" />
+    <Compile Include="TypyStatusow.cs" />
     <Compile Include="Zadanie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
