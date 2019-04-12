@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Szkolenie.Zadania
 {
-    class ZarzadcaZadan
+    public class ZarzadcaZadan
     {
         List<Zadanie> listaZadan = new List<Zadanie>();
 

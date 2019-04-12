@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadania", "Zadania\Zadania.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObslugaZadan", "ObslugaZadan\ObslugaZadan.csproj", "{F65C7E75-D224-4BDC-B21E-5A4224269378}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObslugaZadanWPF", "ObslugaZadanWPF\ObslugaZadanWPF.csproj", "{F80873C1-409B-46A3-A1DB-159B2393BD8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F65C7E75-D224-4BDC-B21E-5A4224269378}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F65C7E75-D224-4BDC-B21E-5A4224269378}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F65C7E75-D224-4BDC-B21E-5A4224269378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80873C1-409B-46A3-A1DB-159B2393BD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80873C1-409B-46A3-A1DB-159B2393BD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80873C1-409B-46A3-A1DB-159B2393BD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80873C1-409B-46A3-A1DB-159B2393BD8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
